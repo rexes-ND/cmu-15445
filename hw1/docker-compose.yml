@@ -3,6 +3,6 @@ services:
   db:
     build: .
     environment:
-      - QUERY_FILE=q3_oldest_people
+      - QUERY_FILE=q5_decade_ratings
     volumes:
       - ./:/root
