@@ -3,6 +3,6 @@ services:
   db:
     build: .
     environment:
-      - QUERY_FILE=q5_decade_ratings
+      - QUERY_FILE=q10_house_of_the_dragon
     volumes:
       - ./:/root
